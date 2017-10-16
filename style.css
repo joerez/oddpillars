@@ -1,0 +1,141 @@
+/**CSS**/
+body {
+  background-color: black;
+}
+
+.underbar {
+  padding-top: 50px;
+}
+
+.mynav {
+  background-color: black;
+  color: white;
+
+
+  font-size: 100%;
+  width: 100%;
+}
+
+.mynav, a {
+  color: white;
+}
+
+.mynav, a:link, a:visited {
+    background-color: rgba(0,0,0,);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ a:hover, a:active {
+    background-color: #212121;
+}
+
+
+
+
+.mylogo {
+padding: 0px 0px;
+float: left;
+font-size: 120%;
+}
+
+
+
+
+
+
+
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("/images/4.png");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Nosifer', cursive;
+
+
+}
+
+.hero-text, button {
+
+}
+
+.large {
+  font-size: 300%;
+}
+
+
+/*Video*/
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+/*Footer*/
+
+.footer {
+  margin-top: 1%;
+  color: white;
+  text-align: center;
+  font-family: 'Nosifer', cursive;
+  margin-bottom: 1%;
+}
