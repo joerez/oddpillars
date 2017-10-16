@@ -30,10 +30,21 @@ body {
 }
 
  a:hover, a:active {
-    background-color: #212121;
+    /*background-color: #212121;*/
 }
 
+.nava:hover {
+  background-color: #212121;
+}
 
+.cta {
+  padding: 7px 12px;
+}
+
+.no {
+all: initial;
+
+}
 
 
 .mylogo {
@@ -72,7 +83,7 @@ font-size: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-family: 'Nosifer', cursive;
+    font-family: 'Nosifer';
 
 
 }
@@ -85,50 +96,39 @@ font-size: 120%;
   font-size: 300%;
 }
 
+/*gif vid*/
 
-/*Video*/
+.vidthing {
+    /* The image used */
+    background-image: url("/vid/leaves.gif");
 
-.homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
-}
-.no-video .video-container video,
-.touch .video-container video {
-    display: none;
-}
-.no-video .video-container .poster,
-.touch .video-container .poster {
-    display: block !important;
-}
-.video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
+    /* Set a specific height */
     height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: #000;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
-.video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
+
+/* Place text in the middle of the image */
+.vidblog {
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+    font-family: 'Nosifer' ;
+
+
 }
-.video-container .filter {
-    z-index: 100;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-}
-.video-container video {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-}
-.video-container video.fillWidth {
-    width: 100%;
-}
+
+
+
+
+/*end gif vid*/
+
+
+
 
 /*Footer*/
 
@@ -136,6 +136,6 @@ font-size: 120%;
   margin-top: 1%;
   color: white;
   text-align: center;
-  font-family: 'Nosifer', cursive;
+  font-family: 'Nosifer';
   margin-bottom: 1%;
 }

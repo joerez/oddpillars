@@ -28,42 +28,33 @@
        new WOW().init();
      </script>
 
+
+
 <!---BEGIN WEBSITE CONTENT------------------------------------------------>
 
 <!--Navigation bar-->
-<div>
 
   <?php include "nav.php"; ?>
-
-
-</div>
 
 <!--end of Navigation bar-->
 
 
 <div class="hero-image">
-  <div class="hero-text">
+  <div class="hero-text wow fadeIn">
     <h1 class="large">ODD PILLARS</h1>
-    <p class="large">De-Occulting The World</p>
-    <button class="btn btn-danger">Check Out Blog</button>
+    <p class="large">De-Occulting The Hidden World</p>
+    <a class="btn btn-danger cta portmation" style="padding: 10 10 10 10;" href="#blog">Check Out Blog</a>
   </div>
 </div>
 
+<!--Latest Blog-->
 
-<div class="homepage-hero-module">
-    <div class="video-container">
-        <div class="filter"></div>
-        <video autoplay loop class="fillWidth">
-            <source src="/vid/Evening_breeze.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-            <source src="vid\Evening_breeze.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
-        <div class="poster hidden">
-            <img src="vid\Evening_breeze.jpg" alt="">
-        </div>
-          <h1>Hi.</h1>
-    </div>
+<?php include "latestblog.php"; ?>
 
-</div>
+<!--End latest Blog-->
+
+
+
 
 
 <!--Footer-->
@@ -73,6 +64,7 @@
 <!--end of Footer-->
 
 
+<script src="/scroll.js"></script>
 
 </body>
 </html>

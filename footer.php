@@ -1,4 +1,4 @@
-<div class="footer">
+<div class="footer" id="contact">
   <p>
     Contact : contact@oddpillars.com
   </p>
