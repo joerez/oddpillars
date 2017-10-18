@@ -1,7 +1,7 @@
 <div class="vidthing">
   <div class="vidblog" id="blog">
 
-    <h1>Latest Blog Posts</h1>
+    <h1>Featured Blog Posts</h1>
 
     <div class="row opening">
 
@@ -26,6 +26,6 @@
 
 
         </div>
-        <a class="btn btn-danger cta portmation" style="padding: 10 10 10 10;" href="#blog">See Full Blog</a>
+        <a class="btn btn-danger cta portmation" style="padding: 10 10 10 10;" href="https://www.oddpillars.com/blog">See Full Blog</a>
         </div>
         </div>
