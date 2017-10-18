@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>OddPillars - De-Occulting The Media</title>
+  <title>OddPillars - De-Occulting The Hidden World</title>
 
 
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
@@ -38,6 +38,7 @@
 
 <!--end of Navigation bar-->
 
+<!--Hero Image-->
 
 <div class="hero-image">
   <div class="hero-text wow fadeIn">
@@ -47,15 +48,18 @@
   </div>
 </div>
 
+<!--End Hero Image-->
+
 <!--Latest Blog-->
 
 <?php include "latestblog.php"; ?>
 
 <!--End latest Blog-->
 
+<!--Sign Up-->
 
 
-
+<!--End Sign Up-->
 
 <!--Footer-->
 

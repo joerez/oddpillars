@@ -4,20 +4,23 @@
     <h1>Latest Blog Posts</h1>
 
     <div class="row opening">
+
+
+
       <div class="col-md-6 col-xs-12 wow fadeIn">
 
-        <h2><a href="#" class="portmation">What is Western Esotericism?</h2>
+        <h2><a href="https://www.oddpillars.com/blog/what-is-western-esotericsm.php" class="portmation">What is Western Esotericism?</h2>
         <img class="img-responsive portmation" src="/images/westerneso.png"></a>
         <br>
-        <p><a href="#" class="portmation">More people are calling themselves Western Esotericists. But what is Western Esotericism?</a></p>
+        <p><a href="https://www.oddpillars.com/blog/what-is-western-esotericsm.php" class="portmation">More and more people are calling themselves Western Esotericists. But what is Western Esotericism?</a></p>
         </div>
 
       <div class="col-md-6 col-xs-12 wow fadeIn">
 
-        <h2><a href="#" class="portmation">Insiders Guide to the Bohemian Grove</h2>
+        <h2><a href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php" class="portmation">Insiders Guide to the Bohemian Grove</h2>
         <img class="img-responsive portmation" src="/images/groveguide.png"></a>
         <br>
-        <p><a href="#" class="portmation">Weaving spiders come not here. The following information comes from the Annuls of the Bohemian Club.</a></p>
+        <p><a href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php" class="portmation">Weaving spiders come not here. The following information comes from the Annuls of the Bohemian Club.</a></p>
 
         </div>
 
