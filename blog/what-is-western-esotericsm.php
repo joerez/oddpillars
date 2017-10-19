@@ -88,7 +88,7 @@ background-attachment: fixed;
       More and more people are calling themselves Western Esotericists.<br /><br />But what is Western Esotericism?
     </h3>
     <center>
-      <img class="img-responsive" src="https://www.oddpillars.com/images/westerneso.png" />
+      <img class="img-responsive" src="https://www.oddpillars.com/images/westerneso.png" alt="what is western esotericism"/>
     </center>
 <h4 align="center">By: Joe Rezendes</h4>
     <hr style="width: 50%;"/>

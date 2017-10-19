@@ -57,15 +57,83 @@
       }
 
       .blogindex {
-        height: 1000px;
-        background-color: black;
+        background-image: url('http://eskipaper.com/images/spooky-hd-wallpaper-1.jpg');
         color: white;
+        padding-top: 2%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      background-attachment: fixed;
       }
 
 
       .topcon {
-        height: 20%;
-        background-color: rgba(0, 0, 255, 0.5);
+        padding-top: 2%;
+        height: 30%;
+        background-color: rgba(255, 255, 230, 0.5);
+        border-radius: 15px;
+      }
+
+      .moveup {
+        margin-top: -11%;
+      }
+
+      .slick-slide img {
+    width: 140%;
+      }
+
+      .slider {
+        width: 80%;
+      }
+
+      .slick-slide img {
+        width: 75%;
+      }
+
+      .blogmain {
+        margin-top: 2%;
+        background-color: rgba(255, 255, 230, 0.7);
+        height: ;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 2%;
+      }
+
+      .blognav {
+        margin-top: 2%;
+        height: 70%;
+        border-radius: 15px;
+
+        background-color: rgba(255, 255, 230, 0.5);
+
+      }
+
+      .blogimg {
+        margin-top: 2%;
+        margin-bottom: 2%;
+
+      }
+
+      article {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+
+      .blogp {
+        margin-top: 2.5%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        color: black;
+      }
+
+      .blogp a {
+        background-color: red;
+        padding: 5px 5px;
+        border-radius: 50px;
       }
 
     </style>
@@ -98,17 +166,162 @@
 <!--blog page-->
 <div class="blogindex">
 
-<div class="container topcon">
-  <?php include "blogslide.php"; ?>
+<div class="container topcon wow bounceInLeft">
+  <div class="moveup">
 
-<div class="testthis">
-  <h1></h1>
-</div>
+  <section class="regular slider">
+      <div>
+      <a href="https://www.oddpillars.com/blog/what-is-western-esotericsm.php">  <img class="portmation" src="https://www.oddpillars.com/images/westerneso.png"> </a>
+      </div>
+      <div>
+      <a href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php">  <img class="portmation" src="https://www.oddpillars.com/images/groveguide.png"> </a>
+      </div>
+      <div>
+  <a href="https://www.oddpillars.com/blog/ultimate-guide-to-goetic-entities.php">  <img class="portmation" src="https://www.oddpillars.com/images/goeticentities.png"> </a>      </div>
+      <div>
+      <a href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php">  <img class="portmation" src="https://www.oddpillars.com/images/groveguide.png"> </a>
+      </div>
+      <div>
+  <a href="https://www.oddpillars.com/blog/what-is-western-esotericsm.php">  <img class="portmation" src="https://www.oddpillars.com/images/westerneso.png"> </a>      </div>
+      <div>
+      <a href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php">  <img class="portmation" src="https://www.oddpillars.com/images/groveguide.png"> </a>
+      </div>
+    </section>
+
+
+  </div> <!--moveup-->
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+      <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript">
+        $(document).on('ready', function() {
+
+          $(".regular").slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2
+          });
+
+
+        });
+    </script>
+
 </div> <!--top container-->
+
+<!--Begin Content Section -->
+<div class="container" style="margin-left: 11.5%;">
+
+
+
+<div class="blogmain wow fadeInDown">
+
+
+
+
+
+  <article class="wow fadeInDown">
+
+  <a href="404"><img height="20%" class="img-fluid blogimg portmation" src="..\images\goeticentities.png" /></a>
+
+  <p class="blogp">
+    <b>This blog page is under construction.</b>
+    <br />
+    <br />
+    <a  class="portmation" href="blog\404.php">Read More</a>
+  </p>
+
+</article>
+
+<article class="wow fadeInDown">
+    <a href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php"><img height="20%" class="img-fluid blogimg portmation" src="..\images\groveguide.png" /></a>
+
+  <p class="blogp">
+    <b>This blog page is under construction.</b>
+    <br />
+    <br />
+    <a class="portmation" href="blog\insiders-guide-to-bohemian-grove.php">Read More</a>
+  </p>
+
+</article>
+
+<article class="wow fadeInDown">
+  <a href="https://www.oddpillars.com/blog/what-is-western-esotericsm.php"><img height="20%" class="img-fluid blogimg portmation" src="..\images\westerneso.png" /> </a>
+
+  <p class="blogp">
+  <b>  Generally, in the occult community, when somebody refers to something as being esoteric, they are
+   talking about an occult science that's veiled in allegories and symbols, that is intended for only a select few to understand, and has several different layers of meaning.
+    </b>
+    <br />
+    <br />
+    <a class="portmation" href="blog\what-is-western-esotericsm.php">Read More</a>
+  </p>
+
+</article>
+
+<article class="wow fadeInDown">
+
+  <a href="404"><img height="20%" class="img-fluid blogimg portmation" src="..\images\goeticentities.png" /></a>
+
+  <p class="blogp">
+    <b>This blog page is under construction.</b>
+    <br />
+    <br />
+    <a  class="portmation" href="blog\404.php">Read More</a>
+  </p>
+
+</article>
+
+<article class="wow fadeInDown">
+    <a href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php"><img height="20%" class="img-fluid blogimg portmation" src="..\images\groveguide.png" /></a>
+
+  <p class="blogp">
+    <b>This blog page is under construction.</b>
+    <br />
+    <br />
+    <a class="portmation" href="blog\insiders-guide-to-bohemian-grove.php">Read More</a>
+  </p>
+
+</article>
+
+<article class="wow fadeInDown">
+  <a href="https://www.oddpillars.com/blog/what-is-western-esotericsm.php"><img height="20%" class="img-fluid blogimg portmation" src="..\images\westerneso.png" /> </a>
+
+  <p class="blogp">
+  <b>  Generally, in the occult community, when somebody refers to something as being esoteric, they are
+   talking about an occult science that's veiled in allegories and symbols, that is intended for only a select few to understand, and has several different layers of meaning.
+    </b>
+    <br />
+    <br />
+    <a class="portmation" href="blog\what-is-western-esotericsm.php">Read More</a>
+  </p>
+
+</article>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+</div>
+
+<!--End content Section -->
+
+
 
 </div> <!--blog index-->
 
 <!--End blog page-->
+
+
+
+
+
 
 <!--Latest Blog-->
 
