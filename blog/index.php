@@ -68,12 +68,7 @@
       }
 
 
-      .topcon {
-        padding-top: 2%;
-        height: 30%;
-        background-color: rgba(255, 255, 230, 0.5);
-        border-radius: 15px;
-      }
+
 
       .moveup {
         margin-top: -11%;
@@ -91,15 +86,25 @@
         width: 75%;
       }
 
+
+      .topcon {
+        padding-top: 2%;
+        height: 30%;
+        background-color: rgba(63, 127, 191, 0.6);
+        border-radius: 15px;
+      }
+
+
       .blogmain {
         margin-top: 2%;
-        background-color: rgba(255, 255, 230, 0.7);
+        background-color: rgba(63, 127, 191, 0.6);
         height: ;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         margin-bottom: 2%;
+        color: white;
       }
 
       .blognav {
@@ -127,7 +132,7 @@
         margin-top: 2.5%;
         margin-bottom: 2%;
         margin-left: 2%;
-        color: black;
+
       }
 
       .blogp a {
@@ -135,6 +140,36 @@
         padding: 5px 5px;
         border-radius: 50px;
       }
+
+      @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+
+      .topcon {
+        height: 15%;
+      }
+
+      .slick-slide img {
+    width: 140%;
+      }
+
+      .moveup {
+        margin-top: -14%;
+      }
+
+      article img {
+        height: 13%;
+      }
+
+      article p {
+        padding-right: 1%;
+      }
+  }
+
+  
+
 
     </style>
 
@@ -179,7 +214,7 @@
       <div>
   <a href="https://www.oddpillars.com/blog/ultimate-guide-to-goetic-entities.php">  <img class="portmation" src="https://www.oddpillars.com/images/goeticentities.png"> </a>      </div>
       <div>
-      <a href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php">  <img class="portmation" src="https://www.oddpillars.com/images/groveguide.png"> </a>
+      <a href="https://www.oddpillars.com/blog/the-problem-with-open-occult-communities.php">  <img class="portmation" src="https://www.oddpillars.com/images/openproblem.png"> </a>
       </div>
       <div>
   <a href="https://www.oddpillars.com/blog/what-is-western-esotericsm.php">  <img class="portmation" src="https://www.oddpillars.com/images/westerneso.png"> </a>      </div>
@@ -216,7 +251,20 @@
 
 <div class="blogmain wow fadeInDown">
 
+  <article class="wow fadeInDown">
 
+  <a href="https://www.oddpillars.com/blog/the-problem-with-open-occult-communities.php"><img height="20%" class="img-fluid blogimg portmation" src="..\images\openproblem.png" /></a>
+
+  <p class="blogp">
+    <b>Many Occultists are turned off by open online Occult Communities for several reasons.
+
+Why is there so much fluff?</b>
+    <br />
+    <br />
+    <a  class="portmation" href="https://www.oddpillars.com/blog/the-problem-with-open-occult-communities.php">Read More</a>
+  </p>
+
+</article>
 
 
 

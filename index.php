@@ -49,7 +49,6 @@
 </div>
 
 <!--End Hero Image-->
-
 <!--Latest Blog-->
 
 <?php include "latestblog.php"; ?>
@@ -57,6 +56,7 @@
 <!--End latest Blog-->
 
 <!--Sign Up-->
+
 
 
 <!--End Sign Up-->
