@@ -48,9 +48,10 @@
   <div class="septcon clearfix">
     <div class="toolname" id="tooltitle">Septernary Cipher</div>
       <div class="topbox">
-        <input required type="text" id="input" placeholder="Word or Phrase" class="word-form">
+        <input required type="text" id="input" placeholder="Word or Phrase" class="word-form" onkeydown = "if (event.keyCode == 13)
+                        document.getElementById('submit').click()"    >
         <button class="btn btn-primary" id="submit" style="padding: 10px 24px; font-size: 18px;">Calculate</button>
-      
+
         <button class="btn btn-danger" id="reset" style="padding: 10px 24px; font-size: 18px;">Reset</button>
 
       </div>
@@ -62,7 +63,7 @@
           <b>Total</b><br />
           <b id="total">38</b>
         </div>
-        <div class="added" id="reduced">
+        <div class="added">
           <b>Reduced</b><br />
           <b id="reduced">2</b>
         </div>
