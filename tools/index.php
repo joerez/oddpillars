@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>OddPillars - Insiders Guide to the Bohemian Grove</title>
+  <title>OddPillars - Tools</title>
 
 
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
@@ -15,6 +15,7 @@
 
   <!--<link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet"> -->
 
+  <script src="app.js"></script>
 
 
 </head>
@@ -47,9 +48,10 @@
   <div class="septcon clearfix">
     <div class="toolname" id="tooltitle">Septernary Cipher</div>
       <div class="topbox">
-        <input type="text" placeholder="Word or Phrase" class="word-form">
-        <button class="btn btn-primary" style="padding: 10px 24px; font-size: 18px;">Calculate</button>
-        <button class="btn btn-danger" style="padding: 10px 24px; font-size: 18px;">Reset</button>
+        <input required type="text" id="input" placeholder="Word or Phrase" class="word-form">
+        <button class="btn btn-primary" id="submit" style="padding: 10px 24px; font-size: 18px;">Calculate</button>
+      
+        <button class="btn btn-danger" id="reset" style="padding: 10px 24px; font-size: 18px;">Reset</button>
 
       </div>
       <div class="bottombox">
@@ -90,6 +92,7 @@
 
 
 <script src="../scroll.js"></script>
+<script src="app.js"></script>
 
 </body>
 </html>
