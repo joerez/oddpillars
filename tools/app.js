@@ -41,9 +41,17 @@ window.onload = function() {
     cipherStr = cipherArr.toString().replace(/,/g, '');
 
     return cipherStr;
-  }
+  };
 
+  function getTotalFromCipher(cipherStr) {
+    var gemTotal = 0;
 
+    for (var i = 0; i < cipherStr.length; i++){
+      gemTotal += Number(cipherStr[i]);
+    }
+
+    return gemTotal;
+  };
 
 
   document.querySelector('#bottom').classList.add('goaway');
@@ -67,7 +75,8 @@ window.onload = function() {
 
     document.getElementById('wordtoval').textContent = wordNumVal;
 
-    document.getElementById('total').textContent = gemTotal
+
+    document.getElementById('total').textContent = getTotalFromCipher(wordNumVal);
 
 
 
