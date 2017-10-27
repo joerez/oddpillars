@@ -80,6 +80,18 @@ window.onload = function() {
 
 
 
+    function getReduced(reducedCipherStr) {
+
+    };
+
+
+
+
+    //document.getElementById('wordtovalreduced').textContent = getReduced(wordNumVal);
+
+    //document.getElementById('reduced').textContent = function(paramenter);
+
+
   });
 
 
