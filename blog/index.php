@@ -149,6 +149,11 @@
 
       .topcon {
         height: 15%;
+        margin-left: 13%;
+      }
+
+      .blogmain {
+        margin-left: 5%;
       }
 
       .slick-slide img {
@@ -168,7 +173,63 @@
       }
   }
 
-  
+  @media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+
+
+  .topcon {
+    height: 13%;
+  }
+
+  .slick-slide img {
+width: 140%;
+  }
+
+  .moveup {
+    margin-top: -14%;
+  }
+
+  article img {
+    height: 13%;
+  }
+
+  article p {
+    padding-right: 1%;
+  }
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+
+
+.topcon {
+  height: 13%;
+}
+
+.slick-slide img {
+width: 140%;
+}
+
+.moveup {
+  margin-top: -14%;
+}
+
+article img {
+  height: 13%;
+}
+
+article p {
+  padding-right: 1%;
+}
+}
 
 
     </style>
@@ -245,7 +306,7 @@
 </div> <!--top container-->
 
 <!--Begin Content Section -->
-<div class="container" style="margin-left: 11.5%;">
+<div class="container">
 
 
 
