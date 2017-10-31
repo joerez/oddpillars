@@ -346,7 +346,9 @@ Why is there so much fluff?</b>
     <a href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php"><img height="20%" class="img-fluid blogimg portmation" src="..\images\groveguide.png" /></a>
 
   <p class="blogp">
-    <b>This blog page is under construction.</b>
+    <b>Whenever the oppertunity arises, I go to used book stores searching for hidden gems. Most of the time I find nothing, but occasionally I'll stumble upon something fantastic.
+
+This was one of those times. In a rather unsuspecting used Bookstore in Danville, CA, I stumbled upon several hidden gems. In the back corner of the store I found the Annals of the Bohemian Club - Volumes 5 and 6.</b>
     <br />
     <br />
     <a class="portmation" href="blog\insiders-guide-to-bohemian-grove.php">Read More</a>
@@ -385,7 +387,9 @@ Why is there so much fluff?</b>
     <a href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php"><img height="20%" class="img-fluid blogimg portmation" src="..\images\groveguide.png" /></a>
 
   <p class="blogp">
-    <b>This blog page is under construction.</b>
+    <b>Whenever the oppertunity arises, I go to used book stores searching for hidden gems. Most of the time I find nothing, but occasionally I'll stumble upon something fantastic.
+
+This was one of those times. In a rather unsuspecting used Bookstore in Danville, CA, I stumbled upon several hidden gems. In the back corner of the store I found the Annals of the Bohemian Club - Volumes 5 and 6.</b>
     <br />
     <br />
     <a class="portmation" href="blog\insiders-guide-to-bohemian-grove.php">Read More</a>
