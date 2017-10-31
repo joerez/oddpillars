@@ -198,7 +198,7 @@ Occult Hermetic Qabalah arose alongside and united with the Christian Cabalistic
         </p>
 
         <p>
-          The areas of study that make up Western Esotericsm are each worth a lifetime of study by themselves. There's such a large depth of material in this strange world that it's difficult to figure out where to begin. I'm hopeful that you may have discovered a specific key term that's of interest to you, and that this will be the start of a lifelong persuit of hidden esoteric knowledge. If you enjoyed this article then please leave us a comment below or share us on Social Media.
+          The areas of study that make up Western Esotericsm are each worth a lifetime of study by themselves. There's such a large depth of material in this strange world that it's difficult to figure out where to begin. I'm hopeful that you may have discovered a specific key term that's of interest to you, and that this will be the start of a lifelong persuit of hidden esoteric knowledge. If you enjoyed this article then please leave us a comment below or share us on Social Media. If you want to connect with like minded individuals then join our Discussion Group on Facebook! <a style="color: aqua; text-decoration: underline; padding: 0;" href="https://www.facebook.com/groups/oddpillars">Click Here!</a>
         </p>
 
         <center>
@@ -214,6 +214,7 @@ Occult Hermetic Qabalah arose alongside and united with the Christian Cabalistic
 <!--End Hero Image-->
 
 <!--Sign up -->
+<?php include "../signupform.php"; ?>
 
 <!--End Sign Up-->
 

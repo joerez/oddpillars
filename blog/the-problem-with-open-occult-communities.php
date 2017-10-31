@@ -137,7 +137,7 @@
           </p>
           <a target="_blank" style="color: aqua; text-decoration: underline;" href="https://www.amazon.com/gp/product/1904853161/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1904853161&linkCode=as2&tag=rezen08-20&linkId=548707e93c5e9fd43416d897afad2801">Gathering the Magic: Creating 21st Century Esoteric Groups</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=rezen08-20&l=am2&o=1&a=1904853161" width="1" height="1" border="0" alt="" style=" border:none !important; margin:0px !important;" />
           <p>
-            What are your thoughts? Do you agree or disagree? Let us know in the comments below, and if you enjoyed this article, feel free to share it on Facebook!
+            What are your thoughts? Do you agree or disagree? Let us know in the comments below, and if you enjoyed this article, feel free to share it on Facebook! If you want to connect with like minded individuals then join our Discussion Group on Facebook! <a style="color: aqua; text-decoration: underline; padding: 0;" href="https://www.facebook.com/groups/oddpillars">Click Here!</a>
           </p>
 
           <center>
@@ -151,12 +151,13 @@
 </div>
 
 <!--End Hero Image-->
-
+<?php include "../signupform.php"; ?>
 <!--Latest Blog-->
 
 <?php include "../latestblog.php"; ?>
 
 <!--End latest Blog-->
+
 
 
 

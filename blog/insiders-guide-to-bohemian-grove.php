@@ -174,7 +174,7 @@
             <br />
           </ul>
           <p>
-            It's my current intention to turn this into an on-going series of articles. If you're curious for more information on the Bohemian Club let us know in the comments below or share it on Facebook.
+            It's my current intention to turn this into an on-going series of articles. If you're curious for more information on the Bohemian Club let us know in the comments below or share it on Facebook. If you want to connect with like minded individuals then join our Discussion Group on Facebook! <a style="color: aqua; text-decoration: underline; padding: 0;" href="https://www.facebook.com/groups/oddpillars">Click Here!</a>
           </p>
           <center>
             <div class="fb-share-button" data-href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.oddpillars.com%2Fblog%2Finsiders-guide-to-bohemian-grove.php&amp;src=sdkpreparse">Share</a></div>
@@ -187,12 +187,13 @@
 </div>
 
 <!--End Hero Image-->
-
+<?php include "../signupform.php"; ?>
 <!--Latest Blog-->
 
 <?php include "../latestblog.php"; ?>
 
 <!--End latest Blog-->
+
 
 
 

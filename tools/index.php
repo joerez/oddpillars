@@ -80,7 +80,11 @@
 
 <!--End latest Blog-->
 
+<!--Sign Up-->
 
+<?php include "../signupform.php"; ?>
+
+<!--End Sign Up-->
 
 
 
