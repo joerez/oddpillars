@@ -98,7 +98,7 @@ background-attachment: fixed;
 
       <div class="container-fluid">
           <p>
-            Before we get into Western Esotericsm let's first go over what esotericsm is.
+            
             Esototericism is the state or quality of being esoteric.
              Generally, in the occult community, when somebody refers to something as being esoteric, they are
             talking about an occult science that's veiled in allegories and symbols, that is intended for only a select few to understand, and has several different layers of meaning.

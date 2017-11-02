@@ -331,10 +331,10 @@ Why is there so much fluff?</b>
 
   <article class="wow fadeInDown">
 
-  <a href="404"><img height="20%" class="img-fluid blogimg portmation" src="..\images\goeticentities.png" /></a>
+  <a href="https://www.oddpillars.com/blog/ultimate-guide-to-goetic-entities.php"><img height="20%" class="img-fluid blogimg portmation" src="..\images\goeticentities.png" /></a>
 
   <p class="blogp">
-    <b>This blog page is under construction.</b>
+    <b>What are the different systems of thought regarding the demons of the Goetia?</b>
     <br />
     <br />
     <a  class="portmation" href="blog\404.php">Read More</a>
@@ -372,10 +372,10 @@ This was one of those times. In a rather unsuspecting used Bookstore in Danville
 
 <article class="wow fadeInDown">
 
-  <a href="404"><img height="20%" class="img-fluid blogimg portmation" src="..\images\goeticentities.png" /></a>
+  <a href="https://www.oddpillars.com/blog/ultimate-guide-to-goetic-entities.php"><img height="20%" class="img-fluid blogimg portmation" src="..\images\goeticentities.png" /></a>
 
   <p class="blogp">
-    <b>This blog page is under construction.</b>
+    <b>What are the different systems of thought regarding the demons of the Goetia?</b>
     <br />
     <br />
     <a  class="portmation" href="blog\404.php">Read More</a>

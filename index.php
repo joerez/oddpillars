@@ -44,8 +44,8 @@
 
 <div class="hero-image dynamic spinXDown">
   <div class="hero-text wow fadeIn">
-    <h1 class="large wow dynamic stairsIn">ODD PILLARS</h1>
-    <p class="large wow dynamic materialize">De-Occulting The Hidden World</p>
+    <h1 class="large  dynamic stairsIn">ODD PILLARS</h1>
+    <p class="large  dynamic materialize">De-Occulting The Hidden World</p>
     <a class="btn btn-danger cta portmation" style="padding: 10 10 10 10;" href="#blog">Check Out Blog</a>
   </div>
 </div>
