@@ -54,6 +54,29 @@ window.onload = function() {
   };
 
 
+function getReducedFromCipher(cipherStr) {
+  var gemReduced = '';
+
+  var cipherStrArray = cipherStr.split(' ');
+  console.log(cipherStrArray)
+
+  reducedCipherArr = [];
+  cipherStrArray.forEach(function(currentStr) {
+    while (currentStr.length > 1) {
+      var sum = 0;
+      for(var i = 0; i < currentStr.length; i++){
+        sum += parseInt(currentStr[i]);
+      }
+      currentStr = sum.toString();
+    }
+    reducedCipherArr.push(currentStr);
+  });
+  var returnedStr = reducedCipherArr.toString().replace(/,/g, ' ');
+
+  return returnedStr;
+}
+
+
   document.querySelector('#bottom').classList.add('goaway');
 
   document.getElementById('submit').addEventListener('click', function() {
@@ -78,11 +101,9 @@ window.onload = function() {
 
     document.getElementById('total').textContent = getTotalFromCipher(wordNumVal);
 
+    var reducedCipherStr = getReducedFromCipher(cipherStr);
 
-
-    function getReduced(reducedCipherStr) {
-
-    };
+    document.getElementById('wordtovalreduced').textContent = reducedCipherStr;
 
 
 
