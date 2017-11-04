@@ -58,7 +58,6 @@ function getReducedFromCipher(cipherStr) {
   var gemReduced = '';
 
   var cipherStrArray = cipherStr.split(' ');
-  console.log(cipherStrArray)
 
   reducedCipherArr = [];
   cipherStrArray.forEach(function(currentStr) {
@@ -76,28 +75,29 @@ function getReducedFromCipher(cipherStr) {
   return returnedStr;
 }
 
-fuction getTotalReduced(reducedCipherStr) {
-  var res = reducedCipherStr.split(" ");
-  aReducedCipherArr = [];
+function getTotalReduced(reducedCipherStr) {
+  var gemReduced = '';
 
-  res.forEach(function(res){
-    while (res.length > 1) {
-      var sum = 0;
-      for(var i = 0; i < res.length;i++) {
-        sum += parseInt(res[i]);
-      }
-      res = sum.toString();
+  var cipherStrArray = cipherStr.split(' ');
+  var currentStr = cipherStrArray.toString().replace(/,/g, '');
+  while (currentStr.length > 1) {
+    var sum = 0;
+    for(var i = 0; i < currentStr.length; i++){
+      sum += parseInt(currentStr[i]);
     }
-    aReducedCipherArr.push(res);
-  });
-var returnedStr = aReducedCipherArr.toString().replace(/,/g, ' ');
+    currentStr = sum.toString();
+  }
+  var returnedStr = currentStr;
 
+  return returnedStr;
 };
 
 
   document.querySelector('#bottom').classList.add('goaway');
 
   document.getElementById('submit').addEventListener('click', function() {
+    document.querySelector('.bottombox').style.display = 'block';
+
     document.querySelector('.bottombox').classList.remove('goaway');
     document.querySelector('.bottombox').classList.remove('animated', 'fadeOutDownBig');
 
@@ -144,7 +144,7 @@ var returnedStr = aReducedCipherArr.toString().replace(/,/g, ' ');
   document.getElementById('reset').addEventListener('click', function() {
 
     //document.querySelector('.bottombox').classList.add('goaway');
-
+    document.querySelector('.bottombox').style.display = 'none';
 
     document.querySelector('.bottombox').classList.remove('animated', 'fadeInUpBig');
 
