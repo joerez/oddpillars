@@ -76,6 +76,24 @@ function getReducedFromCipher(cipherStr) {
   return returnedStr;
 }
 
+fuction getTotalReduced(reducedCipherStr) {
+  var res = reducedCipherStr.split(" ");
+  aReducedCipherArr = [];
+
+  res.forEach(function(res){
+    while (res.length > 1) {
+      var sum = 0;
+      for(var i = 0; i < res.length;i++) {
+        sum += parseInt(res[i]);
+      }
+      res = sum.toString();
+    }
+    aReducedCipherArr.push(res);
+  });
+var returnedStr = aReducedCipherArr.toString().replace(/,/g, ' ');
+
+};
+
 
   document.querySelector('#bottom').classList.add('goaway');
 
@@ -105,7 +123,9 @@ function getReducedFromCipher(cipherStr) {
 
     document.getElementById('wordtovalreduced').textContent = reducedCipherStr;
 
+    var totalReducedStr = getTotalReduced(reducedCipherStr);
 
+    document.getElementById('reduced').textContent = totalReducedStr;
 
 
     //document.getElementById('wordtovalreduced').textContent = getReduced(wordNumVal);
