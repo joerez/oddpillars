@@ -1,3 +1,29 @@
+<style>
+.vidthing {
+    /* The image used */
+    background-image: url("/vid/leaves.gif");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.vidblog {
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+    font-family: 'Nosifer' ;
+
+
+}
+</style>
+
 <div class="vidthing">
   <div class="vidblog" id="blog">
 

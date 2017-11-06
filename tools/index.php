@@ -42,31 +42,39 @@
 <!--end of Navigation bar-->
 
 <!--tools main index-->
+<div class="tools">
+  <div class="toolsbkg">
+    <div class="title-section">
+      <center>
+        <h1>Tools</h1>
+        <hr />
+        <p>
+          These tools and applications help automate varius tasks. Feel free to suggest more tools by contacting us.
+        </p>
+        <hr />
+      </center>
+    </div>
+    <div class="container">
+      <div class="toolitem">
+        <div class="row row-opening">
+          <div class="col-xs-4">
 
-<div class="toolspage">
-  <div class="septcon clearfix">
-    <div class="toolname" id="tooltitle">Septernary Cipher</div>
-      <div class="topbox">
-        <input required type="text" id="input" placeholder="Word or Phrase" class="word-form" onkeydown = "if (event.keyCode == 13)
-                        document.getElementById('submit').click()"    >
-        <button class="btn btn-primary" id="submit" style="padding: 10px 24px; font-size: 18px;">Calculate</button>
+              <a style="padding-bottom: 0px;padding-top: 0px;" href="https://www.oddpillars.com/tools/septernary/"><img class="img-responsive" src="./sept.JPG" /></a>
+            </div>
 
-        <button class="btn btn-danger" id="reset" style="padding: 10px 24px; font-size: 18px;">Reset</button>
+            <div class="col-xs-8">
 
-      </div>
-      <div class="bottombox" id="bottom">
-        <div class="wordgiven toolname">WORD GIVEN</div>
-        <div class="wordgivennum toolnameb" id="wordtoval">4254 75551</div>
-        <div class="wordgivennum toolnameb" id="wordtovalreduced">6 5</div>
-        <div class="added">
-          <b>Total</b><br />
-          <b id="total">38</b>
-        </div>
-        <div class="added">
-          <b>Reduced</b><br />
-          <b id="reduced">2</b>
-        </div>
-      </div>
+              <h3 style="margin-top: 0px; margin-left: 10px;">Septernary Cipher Generator</h3>
+
+              <p style="padding-left: 10px;">
+              The English Alphabet was constructed using a septenary, or base-seven, system with seven being of added importance in its construction due to the central pillars of the menorahs resting on the seventh position, or the G and T.
+              </p>
+              <a style="margin-left: 10px; padding: 5, 5" class="btn btn-danger" href="https://www.oddpillars.com/tools/septernary/">View</a>
+
+            </div>
+          </div>
+
+      </div> <!-- tool item -->
 
     </div>
   </div>
