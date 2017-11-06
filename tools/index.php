@@ -42,44 +42,7 @@
 <!--end of Navigation bar-->
 
 <!--tools main index-->
-<div class="tools">
-  <div class="toolsbkg">
-    <div class="title-section">
-      <center>
-        <h1>Tools</h1>
-        <hr />
-        <p>
-          These tools and applications help automate varius tasks. Feel free to suggest more tools by contacting us.
-        </p>
-        <hr />
-      </center>
-    </div>
-    <div class="container">
-      <div class="toolitem">
-        <div class="row row-opening">
-          <div class="col-xs-4">
-
-              <a style="padding-bottom: 0px;padding-top: 0px;" href="https://www.oddpillars.com/tools/septernary/"><img class="img-responsive" src="./sept.JPG" /></a>
-            </div>
-
-            <div class="col-xs-8">
-
-              <h3 style="margin-top: 0px; margin-left: 10px;">Septernary Cipher Generator</h3>
-
-              <p style="padding-left: 10px;">
-              The English Alphabet was constructed using a septenary, or base-seven, system with seven being of added importance in its construction due to the central pillars of the menorahs resting on the seventh position, or the G and T.
-              </p>
-              <a style="margin-left: 10px; padding: 5, 5" class="btn btn-danger" href="https://www.oddpillars.com/tools/septernary/">View</a>
-
-            </div>
-          </div>
-
-      </div> <!-- tool item -->
-
-    </div>
-  </div>
-</div>
-
+<?php include "../tools.php"; ?>
 <!--end of tools main index-->
 
 <!--Latest Blog-->

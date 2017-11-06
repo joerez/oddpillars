@@ -63,6 +63,13 @@
 
 <!--End Sign Up-->
 
+<!--tools-->
+
+<?php include "tools.php"; ?>
+
+<!--end tools-->
+
+
 <!--Footer-->
 
 <?php include "footer.php"; ?>

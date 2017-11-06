@@ -7,7 +7,7 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 
   <link rel="stylesheet" type="text/css" href="https://oddpillars.com/style.css" />
-  <link rel="stylesheet" type="text/css" href="https://www.oddpillars.com/tools/septernary/styles.css" />
+  <link rel="stylesheet" type="text/css" href="https://www.oddpillars.com/tools/basesix/styles.css" />
 
   <link rel="stylesheet" type="text/css" href="https://codingforkids.us/animate.css" />
   <link rel="stylesheet" type="text/css" href="https://codingforkids.us/styles/jquery-ui-1.10.4.custom.min.css"
@@ -45,7 +45,7 @@
 
 <div class="toolspage">
   <div class="septcon clearfix">
-    <div class="toolname" id="tooltitle">Septernary Cipher</div>
+    <div class="toolname" id="tooltitle">Base six cipher</div>
       <div class="topbox">
         <input required type="text" id="input" placeholder="Word or Phrase" class="word-form" onkeydown = "if (event.keyCode == 13)
                         document.getElementById('submit').click()"    >
