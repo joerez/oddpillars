@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>OddPillars - Septernary Cipher</title>
+  <title>OddPillars - Base Six English Gematria Cipher</title>
 
 
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
@@ -57,14 +57,10 @@
       <div class="bottombox" id="bottom">
         <div class="wordgiven toolname">WORD GIVEN</div>
         <div class="wordgivennum toolnameb" id="wordtoval">4254 75551</div>
-        <div class="wordgivennum toolnameb" id="wordtovalreduced">6 5</div>
         <div class="added">
           <b>Total</b><br />
           <b id="total">38</b>
         </div>
-        <div class="added">
-          <b>Reduced</b><br />
-          <b id="reduced">2</b>
         </div>
       </div>
 
@@ -80,24 +76,31 @@
     <div class="container">
 
 
-    <h3>About The Septernary Cipher Generator</h3>
+    <h3>About The Base Six Gematria Cipher Generator</h3>
+    <hr />
+    <h3>The above Cipher is still under construction.</h3>
     <hr />
     <p>
-      The following is directly quoted from <a style="color: aqua; text-decoration: underline; padding: 0;" href="https://www.youtube.com/user/martyleeds33">Marty Leeds</a>
+      The Base Six Gematria Cipher is used by biblical Christians in accordance to Scripture.
     </p>
     <p>
-      The English Alphabet was constructed using a septenary, or base-seven, system with seven being of added importance in its construction due to the central pillars of the menorahs resting on the seventh position, or the G and T. Seven has long been a number associated with esoteric, spiritual and mystical concepts. With the seven days of creation, the seven chakras and the seven stars of the Pleiades, the historical and mythological references to this most esteemed number are too numerous to count.
+      The only intended use for this cipher historically has been to compare English words/phrases to significant biblical numbers. The main ones are 666, 888, and 906.
     </p>
     <p>
-      Using the English cipher on the number seven, we find the most astonishing occult gem. Hidden within the number seven, we find yet again, the transcendental ratio of pi. SEVEN sums to 22 and 22 divided by SEVEN equals 3.142.
-
-
+       When using this calculator you should ask yourself, "What is the Scriptural significance of my words?" If there is no Scriptural significance then the calculation is of no significance.
     </p>
     <p>
-      It would seem that the transcendence of this holy ratio of pi has been hiding beneath our language this entire time. And according to the symbolic representation of the Tetragrammaton, the ratio of pi seems to have a direct connection to this Great Mystery many of us simply call, God.
+      888 and 906 are considered holy. 666 is associated with the antichrist and the mark of the beast..
     </p>
     <p>
-      When we split our alphabet in two, we created a duality, or polarity, as well as symmetry with our 26 letters. This duality is found most prominently in the human realm as gender, or male and female. Much like the left and right hemispheres of our brains, we can assign the left side of our alphabet the masculine and the right side of our alphabet the feminine. By equating the halves of our alphabet to the male and female human being allows us to find, encoded within the numbers on each half of our alphabet, a direct relationship to human anatomy.
+      Words/phrases that add to 666 with this cipher: CORRUPT, LUSTFUL, TREACHERIES, MARK OF BEAST, WITCHCRAFT, NECROMANCY, COMPUTER, NEW YORK, and more.
+    </p>
+    <p>
+      Words/phrases that add to 888 with this cipher: THE TRINITY, JEWISH MESSIAH, MORNING STAR, BIBLICAL PROPHET,
+SCRIPTURES, OLD TESTAMENT, ENGLISH GEMATRIA, THE HOUSE OF GOD, and more.
+    </p>
+    <p>
+      Words/phrases that add to 906 with this cipher: JESUS CHRIST, HOLY SPIRIT, JESUS IS LORD, THE LAW IS LOVE, MIGHTY JEHOVAH, GOD'S TRUTH, JESUS' GLORY, JESUS' POWER, and more.
     </p>
     <p>
       If you want to connect with like minded individuals then join our Discussion Group on Facebook! <a style="color: aqua; text-decoration: underline; padding: 0;" href="https://www.facebook.com/groups/oddpillars">Click Here!</a>

@@ -74,7 +74,28 @@ hr {
 
       </div> <!-- tool item -->
 
+      <div class="toolitem"> <!--start new tool item here-->
+        <div class="row row-opening">
+          <div class="col-xs-4">
 
+              <a style="padding-bottom: 0px;padding-top: 0px;     margin-bottom: 10px;" href="https://www.oddpillars.com/tools/basesix/"><img class="img-responsive portmation" src="https://www.oddpillars.com/tools/base6.JPG" /></a>
+            </div>
+
+            <div class="col-xs-8">
+
+              <h3 style="margin-top: 0px; margin-left: 10px;">Base Six Gematria Cipher</h3>
+
+              <p style="padding-left: 10px;">
+                The Base Six Gematria Cipher is used by biblical Christians in accordance to Scripture.
+
+  The only intended use for this cipher historically has been to compare English words/phrases to significant biblical numbers.
+              </p>
+              <a style="margin-left: 10px; padding: 5, 5;     margin-bottom: 10px;" class="btn btn-danger portmation" href="https://www.oddpillars.com/tools/basesix/">View</a>
+
+            </div>
+          </div>
+
+      </div> <!-- tool item -->
 
       <!--add new tool items below above line-->
 
