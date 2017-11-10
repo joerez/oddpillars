@@ -78,8 +78,6 @@
 
     <h3>About The Base Six Gematria Cipher Generator</h3>
     <hr />
-    <h3>The above Cipher is still under construction.</h3>
-    <hr />
     <p>
       The Base Six Gematria Cipher is used by biblical Christians in accordance to Scripture.
     </p>

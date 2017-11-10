@@ -4,6 +4,7 @@
   <title>OddPillars - Insiders Guide to the Bohemian Grove</title>
 
 
+
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 
   <link rel="stylesheet" type="text/css" href="../style.css" />
@@ -54,7 +55,7 @@
 
 <script src="../scripts.js"></script>
 
-<script src="dist/wow.min.js"></script>
+<script src="../dist/wow.min.js"></script>
       <script>
        new WOW().init();
      </script>
@@ -180,10 +181,15 @@
             <div class="fb-share-button" data-href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.oddpillars.com%2Fblog%2Finsiders-guide-to-bohemian-grove.php&amp;src=sdkpreparse">Share</a></div>
             <br />          <div class="fb-comments" data-href="https://www.oddpillars.com/blog/insiders-guide-to-bohemian-grove.php" data-numposts="5" data-colorscheme="dark"></div>
           </center>
-      </div>
 
+
+
+
+
+      </div>
   </div>
   <br />
+
 </div>
 
 <!--End Hero Image-->
@@ -207,6 +213,9 @@
 
 
 <script src="../scroll.js"></script>
+
+
+
 
 </body>
 </html>

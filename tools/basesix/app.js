@@ -32,7 +32,7 @@ window.onload = function() {
     ' ': ' '
   }
 
-  function getCipher(str){
+  function getCipherStr(str){
     var wordArr = str.split('')
     cipherArr = [];
     wordArr.forEach(function(char){
@@ -43,11 +43,20 @@ window.onload = function() {
     return cipherStr;
   };
 
-  function getTotalFromCipher(cipherStr) {
-    var gemTotal = 0;
+  function getCipherArr(str){
+    var wordArr = str.split('')
+    cipherArr = [];
+    wordArr.forEach(function(char){
+      cipherArr.push(cipher[char.toUpperCase()]);
+    });
 
-    for (var i = 0; i < cipherStr.length; i++){
-      gemTotal += Number(cipherStr[i]);
+    return cipherArr;
+  }
+
+  function getTotalFromCipher(cipherArr) {
+    var gemTotal = 0;
+    for (var i = 0; i < cipherArr.length; i++){
+      gemTotal += Number(cipherArr[i]);
     }
 
     return gemTotal;
@@ -109,7 +118,7 @@ function getTotalReduced(reducedCipherStr) {
     var word = document.getElementById("input").value;
     document.querySelector('.wordGiven').textContent = word;
 
-    var wordNumVal = getCipher(word);
+    var wordNumVal = getCipherStr(word);
 
 
 
@@ -117,7 +126,7 @@ function getTotalReduced(reducedCipherStr) {
     document.getElementById('wordtoval').textContent = wordNumVal;
 
 
-    document.getElementById('total').textContent = getTotalFromCipher(wordNumVal);
+    document.getElementById('total').textContent = getTotalFromCipher(getCipherArr(word));
 
     var reducedCipherStr = getReducedFromCipher(cipherStr);
 
