@@ -9,10 +9,10 @@
 
 
 
+  <link rel="stylesheet" type="text.css" href="reset.css"
 
 
   <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css"/>
-
 
 
   <link rel="stylesheet" type="text/css" href="style.css" />
@@ -28,9 +28,33 @@
 
   <div class="clubhouse">
 
-    <button id="button1">Add Box 1</button>
-    <button id="button2">Add Box 2</button>
-    <button id="button3">Add Box 3</button>
+    <script>
+  $( function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  } );
+  </script>
+
+    <div id="sortable">
+      <div class="blueback">
+        <h1>Sort me</h1>
+        <button id="button1">Add Box 1</button>
+
+      </div>
+      <div class="greenback">
+        <h1>Sort me</h1>
+        <button id="button2">Add Box 2</button>
+
+      </div>
+      <div class="yellowback">
+        <h1>Sort me</h1>
+        <button id="button3">Add Box 3</button>
+
+      </div>
+    </div>
+
+
+
 
 
     <div class="box" id="box1">
@@ -54,6 +78,7 @@
         <span class="point" id="close3">X</span>
       </div>
     </div>
+
 
 
   </div>
